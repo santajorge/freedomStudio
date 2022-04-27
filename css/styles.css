@@ -14,6 +14,26 @@ body {
 }
 
 /*-----CSS Header-------- */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-image: url(../img/wave.svg);
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[9];
+      grid-template-columns: repeat(9, 1fr);
+  padding: 30px;
+}
+
+.menu-bar {
+  display: none;
+}
+
 /*-----CSS Main---------- */
 /*-----CSS Footer---------- */
 /*# sourceMappingURL=styles.css.map */
