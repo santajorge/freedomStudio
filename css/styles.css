@@ -10,28 +10,21 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  /*font-family: 'Source Serif Pro', serif;*/
+}
+
+h1 h2 {
+  font-family: 'Source Serif Pro', serif;
 }
 
 /*-----CSS Header-------- */
-.hero {
-  width: 100vw;
-  height: 100vh;
-  max-width: 100%;
-  background-image: url(../img/wave.svg);
-  background-repeat: no-repeat;
+.header {
+  background: url(../img/header.svg) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
-.navbar {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[9];
-      grid-template-columns: repeat(9, 1fr);
-  padding: 30px;
-}
-
-.menu-bar {
-  display: none;
+.header .navbar {
+  background-color: transparent !important;
 }
 
 /*-----CSS Main---------- */
