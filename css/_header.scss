@@ -1,50 +1,56 @@
-.header{
-    background: url(../img/header.svg) no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+.nav-menu {
+    background-color: $purple;
 }
 
-.header .navbar {
-    background-color: transparent !important;
-}
-
-.header i {
-    font-size: 25px;
-}
-
-.header a {
-    font-size: 1.3em;
+.nav-menu a {
+    font-size: 1.2em;
     font-weight: bold;
     color: #fff;
     text-decoration: none;   
 }
 
-.header a:hover {
-    color: $purple;
+.nav-menu a:hover {
+    color: $yellow;
     transition: all .5s;
 }
 
-.header .logo {
-    width: 50%;
+.hero {
+    background: url(../img/header.svg);
+    background-position: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    
+}
+
+.hero .logo {
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.header .btn-custom{
+.hero .btn-custom {
     color: #000;
     font-weight: bold;
     background-color: $purple;
     border-style: none;
-    padding-top: 0;
+    padding-top: 1;
 }
 
-.header .btn-custom:hover{
-    color: #fff;
-    background-color: $cyan;
+.hero .btn-custom:hover {
+    color: #fff; 
+    background-color: $yellow;
     transition: all .5s;
 }
 
-.header .btn-custom:visited{
+.hero .btn-custom:visited{
     background-color: $cyan;
+
 }
+
+.hero-container {
+    padding-top: 7em;
+}
+
+

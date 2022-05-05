@@ -17,57 +17,58 @@ h1 h2 {
 }
 
 /*-----CSS Header-------- */
-.header {
-  background: url(../img/header.svg) no-repeat;
-  background-size: cover;
-  min-height: 100vh;
+.nav-menu {
+  background-color: #846dae;
 }
 
-.header .navbar {
-  background-color: transparent !important;
-}
-
-.header i {
-  font-size: 25px;
-}
-
-.header a {
-  font-size: 1.3em;
+.nav-menu a {
+  font-size: 1.2em;
   font-weight: bold;
   color: #fff;
   text-decoration: none;
 }
 
-.header a:hover {
-  color: #846dae;
+.nav-menu a:hover {
+  color: #f7a613;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
-.header .logo {
-  width: 50%;
+.hero {
+  background: url(../img/header.svg);
+  background-position: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.hero .logo {
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.header .btn-custom {
+.hero .btn-custom {
   color: #000;
   font-weight: bold;
   background-color: #846dae;
   border-style: none;
-  padding-top: 0;
+  padding-top: 1;
 }
 
-.header .btn-custom:hover {
+.hero .btn-custom:hover {
   color: #fff;
-  background-color: #65c2c5;
+  background-color: #f7a613;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
-.header .btn-custom:visited {
+.hero .btn-custom:visited {
   background-color: #65c2c5;
+}
+
+.hero-container {
+  padding-top: 7em;
 }
 
 /*-----CSS Main---------- */
