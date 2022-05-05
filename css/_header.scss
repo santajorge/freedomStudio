@@ -7,3 +7,44 @@
 .header .navbar {
     background-color: transparent !important;
 }
+
+.header i {
+    font-size: 25px;
+}
+
+.header a {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;   
+}
+
+.header a:hover {
+    color: $purple;
+    transition: all .5s;
+}
+
+.header .logo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .btn-custom{
+    color: #000;
+    font-weight: bold;
+    background-color: $purple;
+    border-style: none;
+    padding-top: 0;
+}
+
+.header .btn-custom:hover{
+    color: #fff;
+    background-color: $cyan;
+    transition: all .5s;
+}
+
+.header .btn-custom:visited{
+    background-color: $cyan;
+}

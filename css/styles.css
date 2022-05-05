@@ -27,6 +27,56 @@ h1 h2 {
   background-color: transparent !important;
 }
 
+.header i {
+  font-size: 25px;
+}
+
+.header a {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #846dae;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.header .logo {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .btn-custom {
+  color: #000;
+  font-weight: bold;
+  background-color: #846dae;
+  border-style: none;
+  padding-top: 0;
+}
+
+.header .btn-custom:hover {
+  color: #fff;
+  background-color: #65c2c5;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.header .btn-custom:visited {
+  background-color: #65c2c5;
+}
+
 /*-----CSS Main---------- */
+.about {
+  background: url(../img/main.svg) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 2em;
+}
+
 /*-----CSS Footer---------- */
 /*# sourceMappingURL=styles.css.map */
